@@ -26,7 +26,7 @@ COPY uwsgi.ini uwsgi.ini
 # Se establece el directorio de trabajo
 WORKDIR /WebApp
 
-# Se crea un volume con el contenido de la aplicacion
+# Se crea un volumen con el contenido de la aplicacion
 VOLUME /WebApp
 
 # Se inicia uWSGI
