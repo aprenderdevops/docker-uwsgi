@@ -1,4 +1,4 @@
-FROM python:3.7.3
+FROM python:3.11.2
 LABEL maintainer="Jose Arturo Fernandez <jarfernandez@aprenderdevops.com>"
 
 # Se instala uWSGI y todas las librerias que necesita la aplicacion
